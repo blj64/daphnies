@@ -8,7 +8,7 @@
     <div v-if="isLoading" class="loader"></div>
 
     <div v-if="videoUrl && !isLoading">
-      <h2>Vidéo analysé :</h2>
+      <h2>Vidéo :</h2>
       <video controls :src="videoUrl" type="video/mp4"></video>
       <a :href="videoUrl" download="video.mp4">Télécharger la vidéo</a>
     </div>
